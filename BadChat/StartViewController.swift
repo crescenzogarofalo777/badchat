@@ -16,7 +16,9 @@ class StartViewController: UIViewController {
         let registered = DataManager.instanceVariable.controlValueKey(key: "registered")
         
         if registered != nil && registered == "true" {
-            performSegue(withIdentifier: "", sender: nil)
+            performSegue(withIdentifier: "menu", sender: nil)
+        } else if registered == nil || registered == "false" {
+            performSegue(withIdentifier: "entryTypeChoice", sender: nil)
         }
         
 
@@ -29,7 +31,7 @@ class StartViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -37,6 +39,6 @@ class StartViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }
