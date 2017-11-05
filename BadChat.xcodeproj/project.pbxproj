@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60CCF0261FAFA84300E11DD4 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CCF0251FAFA84300E11DD4 /* DatabaseManager.swift */; };
+		60CCF0281FAFABDA00E11DD4 /* EntryPointChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CCF0271FAFABDA00E11DD4 /* EntryPointChoiceViewController.swift */; };
 		60F865A61FAB75770069A36B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F865A51FAB75770069A36B /* AppDelegate.swift */; };
 		60F865AB1FAB75770069A36B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F865A91FAB75770069A36B /* Main.storyboard */; };
 		60F865AD1FAB75770069A36B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60F865AC1FAB75770069A36B /* Assets.xcassets */; };
 		60F865B01FAB75770069A36B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F865AE1FAB75770069A36B /* LaunchScreen.storyboard */; };
 		60F865B81FAB78960069A36B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60F865B71FAB78960069A36B /* GoogleService-Info.plist */; };
 		60F865BA1FAC75950069A36B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F865B91FAC75950069A36B /* TableViewController.swift */; };
-		60F865BC1FAC75BA0069A36B /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F865BB1FAC75BA0069A36B /* DataBaseManager.swift */; };
 		60F865C01FAC80AF0069A36B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F865BF1FAC80AF0069A36B /* DataManager.swift */; };
 		60F865C21FAC89150069A36B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F865C11FAC89150069A36B /* StartViewController.swift */; };
 		E62048CDAEC4399507DB8BD4 /* Pods_BadChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4B95CAF8BB5DEBA7642959 /* Pods_BadChat.framework */; };
@@ -22,6 +23,8 @@
 /* Begin PBXFileReference section */
 		399B78C5E82DBA18860A4FAC /* Pods-BadChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BadChat/Pods-BadChat.debug.xcconfig"; sourceTree = "<group>"; };
 		4146C66C4EF23DC26DD6254D /* Pods-BadChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BadChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-BadChat/Pods-BadChat.release.xcconfig"; sourceTree = "<group>"; };
+		60CCF0251FAFA84300E11DD4 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		60CCF0271FAFABDA00E11DD4 /* EntryPointChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryPointChoiceViewController.swift; sourceTree = "<group>"; };
 		60F865A21FAB75770069A36B /* BadChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F865A51FAB75770069A36B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F865AA1FAB75770069A36B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -30,7 +33,6 @@
 		60F865B11FAB75770069A36B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60F865B71FAB78960069A36B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		60F865B91FAC75950069A36B /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		60F865BB1FAC75BA0069A36B /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		60F865BF1FAC80AF0069A36B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		60F865C11FAC89150069A36B /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		CF4B95CAF8BB5DEBA7642959 /* Pods_BadChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BadChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,8 +92,9 @@
 				60F865A91FAB75770069A36B /* Main.storyboard */,
 				60F865B91FAC75950069A36B /* TableViewController.swift */,
 				60F865BF1FAC80AF0069A36B /* DataManager.swift */,
+				60CCF0271FAFABDA00E11DD4 /* EntryPointChoiceViewController.swift */,
+				60CCF0251FAFA84300E11DD4 /* DatabaseManager.swift */,
 				60F865C11FAC89150069A36B /* StartViewController.swift */,
-				60F865BB1FAC75BA0069A36B /* DataBaseManager.swift */,
 				60F865AC1FAB75770069A36B /* Assets.xcassets */,
 				60F865AE1FAB75770069A36B /* LaunchScreen.storyboard */,
 				60F865B71FAB78960069A36B /* GoogleService-Info.plist */,
@@ -236,9 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F865C21FAC89150069A36B /* StartViewController.swift in Sources */,
+				60CCF0281FAFABDA00E11DD4 /* EntryPointChoiceViewController.swift in Sources */,
 				60F865A61FAB75770069A36B /* AppDelegate.swift in Sources */,
+				60CCF0261FAFA84300E11DD4 /* DatabaseManager.swift in Sources */,
 				60F865C01FAC80AF0069A36B /* DataManager.swift in Sources */,
-				60F865BC1FAC75BA0069A36B /* DataBaseManager.swift in Sources */,
 				60F865BA1FAC75950069A36B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
